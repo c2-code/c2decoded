@@ -1,2 +1,2 @@
 # c2decoded
-@c2decoded personal website
+@c2decoded's business website
