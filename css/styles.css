@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+body { font-family: 'Roboto', sans-serif; }
+
+.portfolio-img {
+    width: 50%;           /* image will be 50% of its container width */
+    max-width: 300px;     /* but no wider than 300px */
+    height: auto;
+  }
+
+.instagram-img {
+    width: 30%;          /* image will take 30% of its container */
+    max-width: 400px;     /* but no wider than 400px */
+    height: auto;
+}
+
+.content-wrapper {
+    max-width: 800px;        /* limits the width so text doesn’t go super wide */
+    margin: 0 auto;          /* centers the wrapper horizontally */
+    padding: 0 16px;         /* adds horizontal padding so content isn’t flush at edges */
+  }
+  
+  .content-wrapper h1,
+  .content-wrapper h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content-wrapper p,
+  .content-wrapper ol {
+    margin-bottom: 1.5rem;
+  }
+  
+  .content-wrapper img.portfolio-img , img.instagram-img{
+    display: block;
+    margin: 0 auto 2rem;     /* centers the image + adds space below */
+    max-width: 300px;        /* or your preferred size */
+    width: 100%;
+    height: auto;
+  }
+  
+  .background-light {
+    background-color: #fadbdb;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
